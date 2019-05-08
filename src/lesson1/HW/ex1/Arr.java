@@ -8,14 +8,13 @@ public class Arr <T> {
     }
 
     public void printArr (){
-        for (T o:obj1) {
-            System.out.print(o+" ");
-        }
+        for (T o:obj1)
+            {System.out.print(o+" ");}
     }
 
     public void changElements (){
-        T x=T [0];
-        T[0]=T[1];
-        T[1]=x;
+        T x=obj1 [0];
+        obj1[0]=obj1[1];
+        obj1[1]=x;
     }
 }
